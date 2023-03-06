@@ -9,21 +9,21 @@ public class PropertyManager {
     TestUtils utils = new TestUtils();
 
     public Properties getProps() throws IOException {
-        InputStream is = null;
+        InputStream inputStream = null;
         String propsFileName = "config.properties";
 
         if(props.isEmpty()){
             try{
-                utils.log().info("loading config properties");
-                is = getClass().getClassLoader().getResourceAsStream(propsFileName);
-                props.load(is);
+                utils.log().info("Loading config properties");
+                inputStream = getClass().getClassLoader().getResourceAsStream(propsFileName);
+                props.load(inputStream);
             } catch (IOException e) {
                 e.printStackTrace();
-                utils.log().fatal("Failed to load config properties. ABORT!!" + e.toString());
+                utils.log().fatal("Failed to load config properties. ABORT!" + e.toString());
                 throw e;
             } finally {
-                if(is != null){
-                    is.close();
+                if(inputStream != null){
+                    inputStream.close();
                 }
             }
         }

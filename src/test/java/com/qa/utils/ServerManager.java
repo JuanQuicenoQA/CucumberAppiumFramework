@@ -16,29 +16,25 @@ public class ServerManager {
         return server.get();
     }
 
-    public void startServer(){
-        utils.log().info("starting appium server");
-        AppiumDriverLocalService server = WindowsGetAppiumService();
-        server.start();
-        if(server == null || !server.isRunning()){
-            utils.log().fatal("Appium server not started. ABORT!!!");
-            throw new AppiumServerHasNotBeenStartedLocallyException("Appium server not started. ABORT!!!");
-        }
-        server.clearOutPutStreams();
-        ServerManager.server.set(server);
-        utils.log().info("Appium server started");
-    }
-
-    public AppiumDriverLocalService getAppiumServerDefault() {
-        return AppiumDriverLocalService.buildDefaultService();
-    }
-
-    public AppiumDriverLocalService WindowsGetAppiumService() {
+    public AppiumDriverLocalService GetAppiumService() {
         GlobalParams params = new GlobalParams();
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
                 .usingAnyFreePort()
                 .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
                 .withLogFile(new File(params.getPlatformName() + "_"
                         + params.getDeviceName() + File.separator + "Server.log")));
+    }
+
+    public void startServer(){
+        utils.log().info("Starting Appium server");
+        AppiumDriverLocalService server = GetAppiumService();
+        server.start();
+        if(!server.isRunning()){
+            utils.log().fatal("Appium server not started. ABORT!");
+            throw new AppiumServerHasNotBeenStartedLocallyException("Appium server not started. ABORT!");
+        }
+        server.clearOutPutStreams();
+        ServerManager.server.set(server);
+        utils.log().info("Appium server started");
     }
 }
