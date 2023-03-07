@@ -1,0 +1,53 @@
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:15.266 ServerManager:29 - Starting Appium server
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:22.058 ServerManager:38 - Appium server started
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:22.076 DriverManager:26 - Initializing Appium driver
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:22.101 PropertyManager:17 - Loading config properties
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:22.102 CapabilitiesManager:18 - Getting capabilities
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:44:22.108 CapabilitiesManager:45 - appUrl is /Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/apps/MyRNDemoApp.app
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:45:40.555 DriverManager:34 - Driver is initialized
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:45:50.648 BasePage:77 - Login with: notvaliduser
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:45:53.483 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:45:55.388 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:45:57.175 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:06.520 BasePage:77 - Login with: invalidUsername
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:09.763 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:11.685 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:13.479 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:22.891 BasePage:77 - Login with: notvaliduser
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:26.051 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:27.986 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:29.804 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:39.090 BasePage:77 - Login with: invalidUsername
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:42.340 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:44.257 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:46.061 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:55.643 BasePage:77 - Login with: bob@example.com
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:46:58.885 BasePage:77 - Password: 10203040
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:47:00.792 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:38.936 ServerManager:29 - Starting Appium server
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:45.341 ServerManager:38 - Appium server started
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:45.357 DriverManager:26 - Initializing Appium driver
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:45.376 PropertyManager:17 - Loading config properties
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:45.377 CapabilitiesManager:18 - Getting capabilities
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:45.383 CapabilitiesManager:45 - appUrl is /Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/apps/MyRNDemoApp.app
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 09:59:54.249 DriverManager:34 - Driver is initialized
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:04.162 BasePage:77 - Login with: notvaliduser
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:07.322 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:09.256 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:11.055 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:20.347 BasePage:77 - Login with: invalidUsername
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:23.619 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:25.547 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:27.352 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:36.612 BasePage:77 - Login with: notvaliduser
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:39.737 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:41.643 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:43.434 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:52.734 BasePage:77 - Login with: invalidUsername
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:55.960 BasePage:77 - Password: secret_sauce
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:57.876 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:00:59.673 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:01:09.161 BasePage:77 - Login with: bob@example.com
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:01:12.392 BasePage:77 - Password: 10203040
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:01:14.300 BasePage:59 - Press login button
+[iOS_iPhone 14 Pro Max INFO ] 2023-03-07 10:01:16.385 BasePage:97 - Title page is: Checkout

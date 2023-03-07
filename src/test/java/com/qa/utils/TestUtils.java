@@ -17,12 +17,6 @@ import java.util.HashMap;
 
 public class TestUtils {
 	public static final long WAIT = 10;
-	
-	public String dateTime() {
-		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
-		Date date = new Date();
-		return dateFormat.format(date);
-	}
 
 	public Logger log() {
 		return LogManager.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());

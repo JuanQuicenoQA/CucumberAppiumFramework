@@ -21,4 +21,14 @@ Feature: Login scenarios
     Examples:
       | username        | password     | err |
       | notvaliduser    | secret_sauce | Provided credentials do not match any user in this service. |
-      | invalidUsername | secret_sauce | Provided credentials do not match any user in this service. |
+      | invalidUsername | secret_sauce | Provided credentials do not match any user in this service |
+
+  Scenario Outline: Successfully login
+    Given I'm in login page
+    When I enter username as "<username>"
+    And I enter password as "<password>"
+    And I click on Login button
+    Then User should be redirected to "Checkout" page
+    Examples:
+      | username          | password   |
+      | bob@example.com   | 10203040   |
