@@ -1,5 +1,6 @@
 package com.qa.stepdef;
 
+import com.qa.pages.CheckoutPage;
 import com.qa.pages.MenuActionsPage;
 import com.qa.pages.LoginPage;
 import com.qa.pages.ProductsPage;
@@ -48,5 +49,10 @@ public class LoginStepDef {
     @Then("I should see Products page with title {string}")
     public void iShouldSeeProductsPageWithTitle(String title) {
         Assert.assertEquals(new ProductsPage().getTitle(), title);
+    }
+
+    @Then("User should be redirected to {string} page")
+    public void userShouldBeRedirectedToPage(String titlePage) {
+       Assert.assertEquals(new CheckoutPage().getCheckoutTitlePage(), titlePage);
     }
 }

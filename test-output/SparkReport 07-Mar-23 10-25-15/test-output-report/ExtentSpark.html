@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Appium Cucumber Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 6, 2023 05:31:31 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 7, 2023 10:25:15 AM</span></a>
 </li>
 </ul>
 </div>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">Login scenarios</p>
             <p class="text-sm">
-              <span>5:31:40 PM</span> / <span>00:00:33:136</span>
+              <span>10:25:28 AM</span> / <span>00:00:52:254</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login scenarios</h5>
-<span class='badge badge-success'>03.06.2023 5:31:40 PM</span>
-<span class='badge badge-danger'>03.06.2023 5:32:13 PM</span>
-<span class='badge badge-default'>00:00:33:136</span>
+<span class='badge badge-success'>03.07.2023 10:25:28 AM</span>
+<span class='badge badge-danger'>03.07.2023 10:26:20 AM</span>
+<span class='badge badge-default'>00:00:52:254</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,17 +120,14 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login with invalid user password</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid user name</div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid user password</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid user name</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -164,7 +161,87 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Login with invalid user password</div>
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid user name</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I'm in login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter username as "invalidUsername"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter password as "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then login should fail with an error "Provided credentials do not match any user in this service."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Login with invalid user password</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid user password</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I'm in login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter username as "notvaliduser"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter password as "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then login should fail with an error "Provided credentials do not match any user in this service."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>Login with invalid user password</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -197,7 +274,7 @@
         <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<...user in this service[.]> but was:<...user in this service[]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.qa.stepdef.LoginStepDef.loginShouldFailWithAnError(LoginStepDef.java:45)
+	at com.qa.stepdef.LoginStepDef.loginShouldFailWithAnError(LoginStepDef.java:46)
 	at ✽.login should fail with an error "Provided credentials do not match any user in this service"(file:///Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/features/Login.feature:20)
 </textarea>
       
@@ -211,6 +288,49 @@
     
     </div></div>
 </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Successfully login</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Successfully login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I'm in login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter username as "bob@example.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter password as "10203040"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be redirected to "Checkout" page</span>
       <div>
       </div>
                   </div>
@@ -262,9 +382,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>17:32:12 PM</td>
+<td>10:26:08 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='17'>Then login should fail with an error "Provided credentials do not match any user in this service"</a>
+<a href="#" class="linked" test-id='1' id='34'>Then login should fail with an error "Provided credentials do not match any user in this service"</a>
 <div class="">
 <span class="badge badge-default">Login scenarios.Login with invalid user password.Then login should fail with an error "Provided credentials do not match any user in this service"</span>
 </div>
@@ -293,16 +413,16 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log pass-bg'>4</span>
 <span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@test</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@test</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -316,9 +436,29 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:31:40 PM</td>
+<td>10:25:28 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Login with invalid user password</a>
+<a href="#" class="linked" test-id='1' id='3'>Login with invalid user name</a>
+<div class="">
+<span class="badge badge-default">Login scenarios.Login with invalid user name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:25:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Login with invalid user name</a>
+<div class="">
+<span class="badge badge-default">Login scenarios.Login with invalid user name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:25:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Login with invalid user password</a>
 <div class="">
 <span class="badge badge-default">Login scenarios.Login with invalid user password</span>
 </div>
@@ -326,11 +466,21 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>17:31:56 PM</td>
+<td>10:25:58 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='11'>Login with invalid user password</a>
+<a href="#" class="linked" test-id='1' id='28'>Login with invalid user password</a>
 <div class="">
 <span class="badge badge-default">Login scenarios.Login with invalid user password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:26:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>Successfully login</a>
+<div class="">
+<span class="badge badge-default">Login scenarios.Successfully login</span>
 </div>
 </td>
 </tr>
@@ -351,13 +501,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 6, 2023 05:31:31 PM</h3>
+<h3>Mar 7, 2023 10:25:15 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 6, 2023 05:32:13 PM</h3>
+<h3>Mar 7, 2023 10:26:20 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -408,9 +558,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='80%'><b>4</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='50%'><b>1</b> scenarios failed,
+<small data-tooltip='20%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -428,9 +578,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='90%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='96%'><b>25</b> steps passed</small></div>
 <div>
-<small data-tooltip='9%'><b>1</b> steps failed,
+<small data-tooltip='3%'><b>1</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -447,7 +597,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login scenarios":33.136
+"Login scenarios":52.254
 };
 </script>
 <div class="row">
@@ -458,11 +608,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@test</td>
-<td>1</td>
+<td>4</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>50%</td>
+<td>80%</td>
 </tr>
 </tbody>
 </table></div>
@@ -478,13 +628,13 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
+passChild: 4,
 failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 10,
+passGrandChild: 25,
 failGrandChild: 1,
 warningGrandChild: 0,
 skipGrandChild: 0,
