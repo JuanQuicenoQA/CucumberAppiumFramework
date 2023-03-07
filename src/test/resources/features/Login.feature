@@ -1,7 +1,7 @@
 @test
 Feature: Login scenarios
 
-  Scenario Outline: Login with invalid user name
+  Scenario Outline: Login with NOT invalid user name
     Given I'm in login page
     When I enter username as "<username>"
     And I enter password as "<password>"
@@ -12,7 +12,7 @@ Feature: Login scenarios
       | notvaliduser    | secret_sauce | Provided credentials do not match any user in this service. |
       | invalidUsername | secret_sauce | Provided credentials do not match any user in this service. |
 
-  Scenario Outline: Login with invalid user password
+  Scenario Outline: Login with NOT invalid user password
     Given I'm in login page
     When I enter username as "<username>"
     And I enter password as "<password>"
@@ -21,9 +21,9 @@ Feature: Login scenarios
     Examples:
       | username        | password     | err |
       | notvaliduser    | secret_sauce | Provided credentials do not match any user in this service. |
-      | invalidUsername | secret_sauce | Provided credentials do not match any user in this service |
+      | invalidUsername | secret_sauce | Provided credentials do not match any user in this  |
 
-  Scenario Outline: Successfully login
+  Scenario Outline: Successful login
     Given I'm in login page
     When I enter username as "<username>"
     And I enter password as "<password>"
