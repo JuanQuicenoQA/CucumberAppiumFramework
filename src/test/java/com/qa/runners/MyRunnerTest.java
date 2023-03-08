@@ -8,6 +8,8 @@ import org.apache.logging.log4j.ThreadContext;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
 import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
 
 @CucumberOptions(
@@ -22,9 +24,11 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
 
 public class MyRunnerTest extends AbstractTestNGCucumberTests {
 
+    @Parameters({"platformName"})
     @BeforeClass
-    public static void initialize() throws Exception {
+    public static void initialize(String platformName) throws Exception {
         GlobalParams params = new GlobalParams();
+        params.setPlatformName(platformName);
         params.initializeGlobalParams();
 
         ThreadContext.put("ROUTINGKEY", params.getPlatformName() + "_"

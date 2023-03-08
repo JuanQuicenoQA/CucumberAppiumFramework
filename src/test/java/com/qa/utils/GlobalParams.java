@@ -67,20 +67,16 @@ public class GlobalParams {
 
     public void initializeGlobalParams(){
         GlobalParams params = new GlobalParams();
-        //For Android
-        params.setPlatformName(System.getProperty("platformName", "Android"));
-        params.setUDID(System.getProperty("udid", "emulator-5554"));
-        params.setDeviceName(System.getProperty("deviceName", "Pixel 6 Pro"));
-        //For iOS
-        //params.setPlatformName(System.getProperty("platformName", "iOS"));
-        //params.setDeviceName(System.getProperty("deviceName", "iPhone 14 Pro Max"));
 
         switch (params.getPlatformName()) {
             case "Android" -> {
+                params.setUDID(System.getProperty("udid", "emulator-5554"));
+                params.setDeviceName(System.getProperty("deviceName", "Pixel 6 Pro"));
                 params.setSystemPort(System.getProperty("systemPort", "10000"));
                 params.setChromeDriverPort(System.getProperty("chromeDriverPort", "11000"));
             }
             case "iOS" -> {
+                params.setDeviceName(System.getProperty("deviceName", "iPhone 14 Pro Max"));
                 params.setWdaLocalPort(System.getProperty("wdaLocalPort", "10001"));
                 params.setWebkitDebugProxyPort(System.getProperty("webkitDebugProxyPort", "11001"));
             }
