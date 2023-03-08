@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="AndroidTest">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="13.0"/>
+        <parameter name="deviceName" value="Pixel 6 Pro"/>
+        <parameter name="avd" value="Pixel_6_Pro"/>
+        <classes>
+            <class name="com.qa.runners.MyRunnerTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
