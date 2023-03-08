@@ -8,7 +8,7 @@ import com.qa.utils.GlobalParams;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
+import org.testng.Assert;
 
 public class LoginStepDef {
     GlobalParams globalParams = new GlobalParams();

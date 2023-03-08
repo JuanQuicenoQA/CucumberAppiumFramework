@@ -21,7 +21,7 @@ Feature: Login scenarios
     Examples:
       | username        | password     | err |
       | notvaliduser    | secret_sauce | Provided credentials do not match any user in this service. |
-      | invalidUsername | secret_sauce | Provided credentials do not match any user in this  |
+      | invalidUsername | secret_sauce | Provided credentials do not match any user in this service. |
 
   Scenario Outline: Successful login
     Given I'm in login page

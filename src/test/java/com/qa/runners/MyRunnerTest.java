@@ -3,16 +3,13 @@ package com.qa.runners;
 import com.qa.utils.DriverManager;
 import com.qa.utils.GlobalParams;
 import com.qa.utils.ServerManager;
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.apache.logging.log4j.ThreadContext;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.runner.RunWith;
+import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
 
-import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
-
-@RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         features = {"src/test/resources/features"},
@@ -23,7 +20,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         //tags = "@test"
 )
 
-public class MyRunnerTest {
+public class MyRunnerTest extends AbstractTestNGCucumberTests {
 
     @BeforeClass
     public static void initialize() throws Exception {
