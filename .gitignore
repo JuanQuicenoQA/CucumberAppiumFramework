@@ -75,3 +75,5 @@ nb-configuration.xml
 ##############################
 .DS_Store
 *.html
+*.log
+*.txt
