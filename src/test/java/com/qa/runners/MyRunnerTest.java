@@ -20,8 +20,8 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         glue = {"com.qa.stepdef"},
         snippets = CAMELCASE,
         monochrome = true,
-        publish = true
-        //tags = "@test"
+        publish = true,
+        tags = "@test"
 )
 
 public class MyRunnerTest extends AbstractTestNGCucumberTests {
