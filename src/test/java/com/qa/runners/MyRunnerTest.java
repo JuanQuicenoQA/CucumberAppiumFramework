@@ -42,6 +42,9 @@ public class MyRunnerTest extends AbstractTestNGCucumberTests {
 
     @AfterClass
     public static void quit(){
+        GlobalParams params = new GlobalParams();
+        params.setUDID(null);
+
         DriverManager driverManager = new DriverManager();
         if(driverManager.getDriver() != null){
             driverManager.getDriver().quit();
