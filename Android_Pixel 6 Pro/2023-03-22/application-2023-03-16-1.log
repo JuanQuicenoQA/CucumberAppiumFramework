@@ -1,0 +1,103 @@
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:44.474 ServerManager:29 - Starting Appium server
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:50.268 ServerManager:38 - Appium server started
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:50.288 DriverManager:26 - Initializing Appium driver
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:50.308 PropertyManager:17 - Loading config properties
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:50.309 CapabilitiesManager:18 - Getting capabilities
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:14:50.316 CapabilitiesManager:34 - appUrl is /Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:01.221 DriverManager:34 - Driver is initialized
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:09.277 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:10.561 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:11.718 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:12.577 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:19.924 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:21.474 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:22.720 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:23.709 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:31.154 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:32.409 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:33.572 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:34.716 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:41.670 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:42.890 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:44.048 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:44.787 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:52.650 BasePage:77 - Login with: bob@example.com
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:53.850 BasePage:77 - Password: 10203040
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:15:54.991 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:22.694 ServerManager:29 - Starting Appium server
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:28.778 ServerManager:38 - Appium server started
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:28.794 DriverManager:26 - Initializing Appium driver
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:28.814 PropertyManager:17 - Loading config properties
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:28.815 CapabilitiesManager:18 - Getting capabilities
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:28.820 CapabilitiesManager:34 - appUrl is /Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:37.752 DriverManager:34 - Driver is initialized
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:45.225 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:46.503 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:47.674 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:48.539 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:57.070 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:58.253 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:23:59.408 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:00.389 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:07.755 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:08.950 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:10.088 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:10.824 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:34.733 BasePage:77 - Login with: bob@example.com
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:35.991 BasePage:77 - Password: 10203040
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:37.130 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:24:38.426 BasePage:97 - Title page is: Checkout
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:16.126 ServerManager:29 - Starting Appium server
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:20.443 ServerManager:38 - Appium server started
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:20.457 DriverManager:26 - Initializing Appium driver
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:20.473 PropertyManager:17 - Loading config properties
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:20.473 CapabilitiesManager:18 - Getting capabilities
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:20.480 CapabilitiesManager:34 - appUrl is /Users/juanquiceno/Documents/GitHub/AppiumBDDFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:27.745 DriverManager:34 - Driver is initialized
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:35.258 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:36.500 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:37.638 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:38.481 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:45.130 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:46.332 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:47.468 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:48.227 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:55.537 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:56.740 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:57.857 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:25:58.596 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:05.869 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:07.065 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:08.197 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:08.977 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:16.275 BasePage:77 - Login with: bob@example.com
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:17.500 BasePage:77 - Password: 10203040
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:18.638 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-07 10:26:20.399 BasePage:97 - Title page is: Checkout
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:48.969 ServerManager:29 - Starting Appium server
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:54.710 ServerManager:38 - Appium server started
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:54.727 DriverManager:26 - Initializing Appium driver
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:54.752 PropertyManager:17 - Loading config properties
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:54.754 CapabilitiesManager:18 - Getting capabilities
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:28:54.760 CapabilitiesManager:34 - appUrl is /Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/resources/apps/Android-MyDemoAppRN.1.3.0.build-244.apk
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:02.243 DriverManager:34 - Driver is initialized
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:09.652 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:10.850 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:11.985 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:12.724 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:19.313 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:20.536 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:21.686 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:22.420 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:29.465 BasePage:77 - Login with: notvaliduser
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:30.812 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:31.989 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:32.819 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:39.545 BasePage:77 - Login with: invalidUsername
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:40.758 BasePage:77 - Password: secret_sauce
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:41.892 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:42.617 BasePage:97 - Error text is: Provided credentials do not match any user in this service.
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:49.258 BasePage:77 - Login with: bob@example.com
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:50.469 BasePage:77 - Password: 10203040
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:51.598 BasePage:59 - Press login button
+[Android_Pixel 6 Pro INFO ] 2023-03-08 10:29:52.946 BasePage:97 - Title page is: Checkout

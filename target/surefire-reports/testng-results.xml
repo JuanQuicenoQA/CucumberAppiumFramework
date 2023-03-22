@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T10:28:48 COT" name="Surefire suite" finished-at="2023-03-08T10:30:00 COT" duration-ms="72181">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-08T10:28:48 COT" name="Surefire test" finished-at="2023-03-08T10:30:00 COT" duration-ms="72181">
+      <class name="com.qa.runners.MyRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:28:48 COT" name="setUpClass" finished-at="2023-03-08T10:28:48 COT" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33f2eb04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:28:48 COT" name="initialize" finished-at="2023-03-08T10:29:02 COT" duration-ms="13649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:02 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-08T10:29:12 COT" duration-ms="10478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with NOT invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:12 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-08T10:29:22 COT" duration-ms="9691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with NOT invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:22 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-08T10:29:32 COT" duration-ms="10399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with NOT invalid user password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:32 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-08T10:29:42 COT" duration-ms="9797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with NOT invalid user password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-08T10:29:52 COT" duration-ms="10328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:52 COT" name="quit" finished-at="2023-03-08T10:29:57 COT" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyRunnerTest@2473d930]" started-at="2023-03-08T10:29:57 COT" name="tearDownClass" finished-at="2023-03-08T10:30:00 COT" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

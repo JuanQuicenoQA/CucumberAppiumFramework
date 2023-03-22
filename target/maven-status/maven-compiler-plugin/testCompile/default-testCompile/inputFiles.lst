@@ -1,0 +1,15 @@
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/CheckoutPage.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/ProductsPage.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/stepdef/Hooks.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/PropertyManager.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/ServerManager.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/GlobalParams.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/TestUtils.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/DriverManager.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/LoginPage.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/BasePage.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/utils/CapabilitiesManager.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/stepdef/LoginStepDef.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/runners/MyRunnerTest.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/MenuPage.java
+/Users/juanquiceno/Documents/GitHub/CucumberAppiumFramework/src/test/java/com/qa/pages/MenuActionsPage.java

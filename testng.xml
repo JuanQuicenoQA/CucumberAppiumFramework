@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="AndroidTest">
+        <parameter name="platformName" value="Android"/>
+        <classes>
+            <class name="com.qa.runners.MyRunnerTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="iOSTest">
+        <parameter name="platformName" value="iOS"/>
+        <classes>
+            <class name="com.qa.runners.MyRunnerTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
